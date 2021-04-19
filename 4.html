@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        "use strict"
+        function sum (a, b) {
+            let c = a + b;
+            return c;
+        }
+
+        function subtraction (a, b) {
+            let c = a - b;
+            return c;
+        }
+
+        function division (a, b) {
+            let c = (a / b);
+            c = (parseInt(Math.round(c * 100))) / 100;
+            return c;
+        }
+
+        function multiplication (a, b) {
+            let c = a * b;
+            return c;
+        }
+
+
+        let a = parseInt(Math.random()*100);
+        let b = parseInt(Math.random()*100);
+        let c = sum (a, b);
+        console.log(c);
+        console.log(subtraction (a, b));
+        console.log(division (a, b));
+        console.log(multiplication (a, b));
+    </script>
+</body>
+</html>

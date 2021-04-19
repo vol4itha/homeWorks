@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        "use strict"
+        /* в итоге х = 5, потому что "а" равно 2 и умножается на 2, а потом прибавляется 1.
+        В итоге а = 4, потому что сначала поставлено умножение, а равно потом, и присваивание осуществояется уже после умножения и после того, как получен х.
+        */
+        let a = 2;
+        let x = 1 + (a *= 2);
+    </script>
+</body>
+</html>
